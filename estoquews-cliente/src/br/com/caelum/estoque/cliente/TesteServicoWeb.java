@@ -9,7 +9,7 @@ public class TesteServicoWeb {
 		Filtros filtros = new Filtros();
 		Filtro filtro = new Filtro();
 		filtro.setNome("Iphone");
-		filtro.setTipo("Livro");
+		filtro.setTipo(TipoItem.LIVRO);
 		filtros.getFiltro().add(filtro);
 		cliente.todosOsItens(filtros);
 		

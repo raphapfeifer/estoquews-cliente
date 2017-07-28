@@ -34,7 +34,7 @@ import javax.xml.bind.annotation.XmlType;
 public class Filtro {
 
     protected String nome;
-    protected String tipo;
+    protected TipoItem tipo;
 
     /**
      * Obtém o valor da propriedade nome.
@@ -68,20 +68,20 @@ public class Filtro {
      *     {@link String }
      *     
      */
-    public String getTipo() {
+    public TipoItem getTipo() {
         return tipo;
     }
 
     /**
      * Define o valor da propriedade tipo.
      * 
-     * @param value
+     * @param celular
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setTipo(String value) {
-        this.tipo = value;
+    public void setTipo(TipoItem celular) {
+        this.tipo = celular;
     }
 
 }
