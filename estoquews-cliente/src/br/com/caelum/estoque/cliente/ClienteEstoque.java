@@ -19,7 +19,6 @@ public class ClienteEstoque {
 		
 		Filtro filtro = new Filtro();
 		Filtros filtros = new Filtros();
-		
 		filtro.setNome("IPhone");
 		filtro.setTipo(TipoItem.CELULAR);
 		filtros.getFiltro().add(filtro);
